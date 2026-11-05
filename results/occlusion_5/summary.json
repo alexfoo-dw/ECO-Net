@@ -1,0 +1,24 @@
+{
+  "images": 5,
+  "split": "test",
+  "occlusion": true,
+  "metrics": {
+    "ari": {
+      "mean": null,
+      "std": null,
+      "n": 0
+    },
+    "miou": {
+      "mean": 0.8549806532071704,
+      "std": 0.10884337811797172,
+      "n": 5
+    },
+    "mdice": {
+      "mean": 0.9049100550001086,
+      "std": 0.07395497305123788,
+      "n": 5
+    }
+  },
+  "data_sha256": "a0150d05cf9d727c303993c4a864edc1db40b58e37af3bddaae4d4643b4d41c1",
+  "checkpoint_sha256": "44930a621e43dde980618929df8a6b86c0cd29d5d04a9ca9a0bd9440ee1f8629"
+}

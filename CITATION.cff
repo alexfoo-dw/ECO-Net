@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the ECO-Net paper when using this software."
+title: "Multi-Part Object Representations via Graph Structures and Co-Part Discovery"
+type: software
+authors:
+  - family-names: Foo
+    given-names: Alex
+  - family-names: Hsu
+    given-names: Wynne
+  - family-names: Lee
+    given-names: Mong Li

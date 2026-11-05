@@ -1,0 +1,6 @@
+{
+  "data_sha256": "5a755386d46f19ba33ca146da737cceb440115b04e07000f13c8b171dc7d1919",
+  "split": "train",
+  "python": "3.7.7",
+  "torch": "1.9.0"
+}

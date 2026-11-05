@@ -1,0 +1,52 @@
+{
+  "seed": 1201,
+  "net": {
+    "K": 1000,
+    "z_size": 3,
+    "input_size": [
+      3,
+      64,
+      64
+    ],
+    "delta_pos_embed": true,
+    "djb": false,
+    "lnf": false,
+    "memref": true,
+    "K_label": 1,
+    "attn_thres": 10,
+    "memref_sel_step": -1,
+    "memref_smallobj_filter_size": 2,
+    "mem_count_max": 3000,
+    "memref_obj_dup_sim_thres": 0.99,
+    "memref_objnei_dupnei_sim_thres": 0.99,
+    "memref_edge_sim_thres": 0.99,
+    "memref_l0_count_max": 400,
+    "memref_l1_count_max": 2000,
+    "memref_vecs_unit_z_size": 64,
+    "memref_kernel_size": 5,
+    "pretrained": false
+  },
+  "features": {
+    "shape": true,
+    "texture": true,
+    "dino": false,
+    "cutler_path": "third_party/CutLER",
+    "dino_arch": "base",
+    "dino_patch_size": 8,
+    "dino_weights": "https://dl.fbaipublicfiles.com/dino/dino_vitbase8_pretrain/dino_vitbase8_pretrain.pth"
+  },
+  "regularization": {
+    "enabled": true,
+    "weight": 1.0,
+    "temperature": 0.1
+  },
+  "training": {
+    "batch_size": 8,
+    "steps": 30000,
+    "lr": 0.0004,
+    "num_workers": 0,
+    "selected_batches": [],
+    "checkpoint_every": 1000,
+    "rebuild_memory": true
+  }
+}

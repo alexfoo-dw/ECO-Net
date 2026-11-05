@@ -1,0 +1,7 @@
+{"step": 1, "epoch": 0, "batch": 1, "loss": 0.0, "memory": 1}
+{"step": 2, "epoch": 0, "batch": 7, "loss": 0.0, "memory": 2}
+{"step": 3, "epoch": 0, "batch": 18, "loss": 0.0, "memory": 4}
+{"step": 4, "epoch": 0, "batch": 45, "loss": 0.0, "memory": 6}
+{"step": 5, "epoch": 0, "batch": 46, "loss": 0.0, "memory": 9}
+{"step": 6, "epoch": 0, "batch": 48, "loss": 0.0, "memory": 11}
+{"step": 7, "epoch": 0, "batch": 191, "loss": 0.0, "memory": 12}
