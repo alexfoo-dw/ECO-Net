@@ -1,0 +1,3 @@
+document.querySelectorAll('.image-link img').forEach(img=>{function missing(){img.parentElement.hidden=true;img.parentElement.style.display='none';img.parentElement.nextElementSibling.hidden=false;}img.addEventListener('error',missing);if(img.complete&&img.naturalWidth===0)missing();});
+document.querySelectorAll('video').forEach(video=>{video.addEventListener('error',()=>{video.nextElementSibling.hidden=false;});});
+document.getElementById('copy-citation').addEventListener('click',async()=>{const status=document.getElementById('copy-status');try{await navigator.clipboard.writeText(document.getElementById('bibtex').textContent);status.textContent='BibTeX copied.';}catch(e){status.textContent='Select the BibTeX above and copy it manually.';}});
